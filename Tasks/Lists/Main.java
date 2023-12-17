@@ -19,10 +19,5 @@ public class Main {
         System.out.println();
         ForwardList<Student>.Iterator iterator = fw.begin();
         f(iterator);
-        MyList<Integer> myList = new MyList<>();
-        myList.push_back(12);
-        MyList<Integer>.Iterator it = myList.begin();
-        System.out.println(it.next());
-        System.out.println(it.prev());
     }
 }
